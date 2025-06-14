@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Catalog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Product Catalog</h1>
+
+  <input type="text" id="searchBar" placeholder="Search by Product ID or Name...">
+
+  <table id="productTable">
+    <thead>
+      <tr>
+        <th>Product ID</th>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Features</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-label="Product ID">1101</td>
+        <td data-label="Image"><img src="https://via.placeholder.com/100x100?text=Red+Shirt" alt="Red Shirt"></td>
+        <td data-label="Name">Red T-Shirt</td>
+        <td data-label="Price">$25</td>
+        <td data-label="Features">100% Cotton, Unisex</td>
+      </tr>
+      <tr>
+        <td data-label="Product ID">1102</td>
+        <td data-label="Image"><img src="https://via.placeholder.com/100x100?text=Blue+Hoodie" alt="Blue Hoodie"></td>
+        <td data-label="Name">Blue Hoodie</td>
+        <td data-label="Price">$40</td>
+        <td data-label="Features">Fleece Lined, Unisex</td>
+      </tr>
+      <tr>
+        <td data-label="Product ID">1103</td>
+        <td data-label="Image"><img src="https://via.placeholder.com/100x100?text=Green+Cap" alt="Green Cap"></td>
+        <td data-label="Name">Green Cap</td>
+        <td data-label="Price">$15</td>
+        <td data-label="Features">Adjustable, Breathable</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
